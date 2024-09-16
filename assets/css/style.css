@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    --var--azul--escuro: rgba(39, 65, 86, 1);
+    --var--branco: rgba(251, 252, 255, 1);
+    font-weight: 600;
+}
+
+main{
+    height: fit-content;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color:#ffebcd;
+    height: 100vh;
+    align-items: center;    
+}
+.titulo{
+    background-color: var(--var--azul--claro);
+    color: var(--var--branco);
+    font-weight: 400;
+    font-family: "Inter",sans-serif;
+    padding: 10px 20px;
+}
+
+.mensagem{
+    margin: 4px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    display: none;
+    
+}
